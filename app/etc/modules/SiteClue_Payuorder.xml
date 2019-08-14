@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <SiteClue_Payuorder>
+      <active>true</active>
+      <codePool>local</codePool>
+    </SiteClue_Payuorder>
+  </modules>
+</config>

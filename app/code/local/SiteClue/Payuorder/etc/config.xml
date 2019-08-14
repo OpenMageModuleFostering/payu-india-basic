@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <SiteClue_Payuorder>
+      <version>1.0.0</version>
+    </SiteClue_Payuorder>
+  </modules>
+  <global>
+	<models>
+	  <payuorder>
+		<class>SiteClue_Payuorder_Model</class>
+		<resourceModel>payuorder_mysql4</resourceModel>
+	  </payuorder>
+	</models>
+  </global>    
+    <crontab>
+        <jobs>            
+			<payuorder_updateoderstatus>
+                <schedule><cron_expr>* * * * *</cron_expr></schedule>
+                <run><model>payuorder/cron::updateOderStatus</model></run>
+            </payuorder_updateoderstatus>
+        </jobs>
+    </crontab>
+</config> 
