@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/PayU-India-Basic",
+    "name": "OpenMageModuleFostering\/PayU-India-Basic",
     "type": "magento-module",
     "license": "Academic-Free-License-(AFL)",
     "homepage": "",
     "description": "PayU is the fastest growing payment system in India! PayU  focuses on flexible, effective and user friendly payment solutions for extreme  competitive prices.",
     "authors": [
-    {
-        "name": "SiteClue",
-        "email": "siteclue@gmail.com"
-    }
-],
+        {
+            "name": "SiteClue",
+            "email": "siteclue@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
